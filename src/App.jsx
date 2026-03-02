@@ -36,7 +36,7 @@ function App() {
             dengan ketertarikan mendalam dalam pembuatan Website, Sistem
             Operasi, hingga Desain Grafis (Pamflet & Banner). Pengalaman lebih
             dari{" "}
-            <strong className="font-semibold text-emerald-600">4 Tahun</strong>{" "}
+            <strong className="font-semibold text-emerald-600">2 Tahun</strong>{" "}
             menciptakan solusi digital yang indah & efisien.
           </p>
 
@@ -62,22 +62,28 @@ function App() {
               Temukan Saya di
             </p>
             <a
-              href="#"
+              href="https://github.com/NielSianipar"
               className="w-10 h-10 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-emerald-500 hover:border-emerald-500 hover:shadow-md transition-all"
             >
               <i className="ri-github-fill text-xl"></i>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/daniellsianipar/"
               className="w-10 h-10 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-emerald-500 hover:border-emerald-500 hover:shadow-md transition-all"
             >
               <i className="ri-linkedin-fill text-xl"></i>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/_danielsyptra/"
               className="w-10 h-10 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-emerald-500 hover:border-emerald-500 hover:shadow-md transition-all"
             >
               <i className="ri-instagram-line text-xl"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/@danieelllll4"
+              className="w-10 h-10 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center justify-center text-slate-600 dark:text-slate-300 hover:text-emerald-500 hover:border-emerald-500 hover:shadow-md transition-all"
+            >
+              <i className="ri-tiktok-fill text-xl"></i>
             </a>
           </div>
         </div>
@@ -108,7 +114,7 @@ function App() {
             <div className="absolute -left-8 md:-left-12 top-20 bg-white/90 dark:bg-slate-800/90 backdrop-blur-md p-4 rounded-2xl shadow-xl dark:shadow-emerald-900/20 border border-white/50 dark:border-slate-700/50 z-30 animate-[bounce_4s_ease-in-out_infinite]">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl font-bold shadow-inner">
-                  4+
+                  2+
                 </div>
                 <div>
                   <h4 className="font-bold text-slate-800 dark:text-slate-100">

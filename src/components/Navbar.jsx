@@ -5,7 +5,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="navbar py-4 px-6 flex items-center justify-between bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl rounded-2xl sticky top-4 z-50 shadow-sm border border-slate-200 dark:border-slate-800 mb-8 transition-all duration-300 relative">
+    <nav className="navbar py-4 px-6 flex items-center justify-between bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl rounded-2xl md:sticky md:top-4 fixed top-0 inset-x-0 z-[100] shadow-sm border-b md:border border-slate-200 dark:border-slate-800 md:mb-8 md:mx-0 transition-all duration-300">
       <div className="text-2xl font-bold bg-gradient-to-r from-emerald-500 to-teal-400 bg-clip-text text-transparent">
         Portfolio
       </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       <div
-        className={`absolute top-full left-0 right-0 mt-3 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-slate-800 rounded-2xl p-6 transition-all duration-300 origin-top md:hidden shadow-xl shadow-slate-200/50 dark:shadow-none z-50 flex flex-col ${isOpen ? "scale-y-100 opacity-100 visible" : "scale-y-0 opacity-0 invisible"}`}
+        className={`absolute top-full left-0 right-0 mt-3 md:mt-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border-x border-b md:border border-slate-200 dark:border-slate-800 rounded-b-2xl md:rounded-2xl p-6 transition-all duration-300 origin-top md:hidden shadow-xl shadow-slate-200/50 dark:shadow-none z-50 flex flex-col ${isOpen ? "scale-y-100 opacity-100 visible" : "scale-y-0 opacity-0 invisible"}`}
       >
         <ul className="flex flex-col gap-5">
           {["Beranda", "About", "Project", "Contact"].map((item) => (

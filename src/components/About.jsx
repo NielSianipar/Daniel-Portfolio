@@ -33,7 +33,7 @@ const About = () => {
             <ScrollReveal delay={0.2}>
               <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
                 Perjalanan saya di dunia pemrograman telah berlangsung lebih
-                dari 4 tahun. Berawal dari rasa penasaran tentang bagaimana
+                dari 2 tahun. Berawal dari rasa penasaran tentang bagaimana
                 aplikasi bekerja di balik layar, kini saya telah membantu
                 berbagai klien dalam menciptakan Web App, mendesain antarmuka,
                 dan memberikan solusi sistem yang optimal.
@@ -85,8 +85,8 @@ const About = () => {
                     Web Development
                   </h3>
                   <p className="text-slate-600 dark:text-slate-300 font-light leading-relaxed">
-                    Berpengalaman dalam membangun aplikasi modern dengan
-                    ekosistem React, Next.js, dan optimasi performa backend.
+                    Berpengalaman dalam membangun web penerimaan mahasiswa baru universitas modern dengan
+                    ekosistem React, Tailwind, Node.js, dan optimasi performa backend.
                   </p>
                 </div>
               </div>

@@ -5,13 +5,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Task Management Web App",
+      title: "Sistem Penerimaan Mahasiswa Baru",
       description:
-        "Aplikasi manajemen tugas ala Trello dengan fitur Drag and Drop, Autentikasi, dan Dashboard analitik proyek secara Real-time.",
+        "Web Aplikasi Sistem Penerimaan Mahasiswa Baru Universitas Satya Terra Bhinneka dengan fitur Autentikasi, dan Dashboard analitik proyek secara Real-time.",
       image: "/project/Screenshot 2026-03-01 151749.png",
       tags: ["React", "Node.js", "Tailwind CSS"],
-      link: "#",
-      github: "#",
+      link: "https://pmb.satyaterrabhinneka.ac.id/",
       theme: {
         hoverShadow: "hover:shadow-emerald-500/10",
         hoverBorder: "hover:border-emerald-200",
@@ -27,13 +26,14 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "E-Commerce Dashboard",
+      title: "Sistem To-Do List",
       description:
-        "Sistem admin terpadu untuk platform e-commerce. Dilengkapi grafik penjualan interaktif, manajemen stok, dan laporan PDF generator.",
-      image: "/project/Screenshot 2026-03-01 151749.png",
-      tags: ["Next.js", "TypeScript", "Chart.js"],
-      link: "#",
-      github: "#",
+        "Sistem To-Do List dengan fitur Autentikasi, dan Dashboard analitik proyek, kolaborasi tim secara Real-time.",
+      image: "/project/project2laptop.png",
+      mobileImage: "/project/project2hp.png",
+      tags: ["Laravel", "PHP", "Tailwind CSS"],
+      link: "https://github.com/NielSianipar/TO-DO-LIST-LARAVEL",
+      github: "https://github.com/NielSianipar/TO-DO-LIST-LARAVEL",
       theme: {
         hoverShadow: "hover:shadow-blue-500/10",
         hoverBorder: "hover:border-blue-200",
@@ -142,7 +142,7 @@ const Projects = () => {
                               <div className="absolute top-1 left-1/2 -translate-x-1/2 w-3.5 h-[3px] bg-slate-900 rounded-full z-30"></div>
                               <div className="relative bg-slate-900 rounded-[8px] aspect-[9/19] overflow-hidden">
                                 <img
-                                  src={project.image}
+                                  src={project.mobileImage || project.image}
                                   alt={`${project.title} mobile`}
                                   className="w-full h-full object-cover object-left transform group-hover:scale-110 transition-transform duration-1000 ease-out"
                                 />

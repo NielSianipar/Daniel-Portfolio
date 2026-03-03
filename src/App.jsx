@@ -49,7 +49,7 @@ function App() {
               <i className="ri-download-cloud-2-line text-xl"></i> Download CV
             </a>
             <a
-              href="#"
+              href="#project"
               className="bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 px-8 py-4 rounded-xl flex items-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-700 transition-all font-semibold shadow-sm hover:shadow-md hover:-translate-y-1"
             >
               Lihat Proyek <i className="ri-arrow-right-up-line text-xl"></i>

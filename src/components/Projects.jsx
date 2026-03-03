@@ -49,13 +49,13 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Portfolio & Agency Landing Page",
+      title: "Diretory STB - Website Company Profile Website",
       description:
-        "Desain website modern dengan animasi scroll yang memukau (Framer Motion). Dibuat khusus untuk agensi digital kreatif yang ingin tampil premium.",
-      image: "/project/Screenshot 2026-03-01 151749.png",
-      tags: ["React", "Framer Motion", "Figma"],
-      link: "#",
-      github: "#",
+        "Web App pencarian seluruh pihak Univeristas, Desain website modern dengan animasi scroll yang memukau (Framer Motion)..",
+      image: "/project/project3.png",
+      tags: ["Laravel", "Framer Motion", "Tailwind CSS"],
+      link: "https://github.com/NielSianipar/Direktory-STB",
+      github: "https://github.com/NielSianipar/Direktory-STB",
       theme: {
         hoverShadow: "hover:shadow-rose-500/10",
         hoverBorder: "hover:border-rose-200",

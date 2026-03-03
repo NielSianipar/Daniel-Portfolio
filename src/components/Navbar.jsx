@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,17 +23,20 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* CTA Button & Theme Toggle (Desktop) */}
+      {/* CTA Button (Desktop) */}
       <div className="hidden md:flex items-center gap-4">
-        <ThemeToggle />
-        <button className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-xl transition-all duration-300 shadow-lg shadow-emerald-500/20 font-medium">
+        <a 
+          href="https://wa.me/6282162154841?text=Halo%20Daniel,%20saya%20tertarik%20menggunakan%20jasa%20Anda."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2.5 rounded-xl transition-all duration-300 shadow-lg shadow-emerald-500/20 font-medium"
+        >
           Hire Me
-        </button>
+        </a>
       </div>
 
       {/* Mobile Menu Button */}
       <div className="md:hidden flex items-center gap-3">
-        <ThemeToggle />
         <button
           className="text-slate-600 dark:text-slate-300 hover:text-emerald-500 focus:outline-none transition-colors"
           onClick={() => setIsOpen(!isOpen)}
@@ -82,9 +84,14 @@ const Navbar = () => {
             </li>
           ))}
           <li className="text-center pt-5 border-t border-slate-200 dark:border-slate-800 mt-2">
-            <button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-xl transition-all duration-300 shadow-lg shadow-emerald-500/20 font-medium text-lg">
+            <a 
+              href="https://wa.me/6282162154841?text=Halo%20Daniel,%20saya%20tertarik%20menggunakan%20jasa%20Anda."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-xl transition-all duration-300 shadow-lg shadow-emerald-500/20 font-medium text-lg"
+            >
               Hire Me
-            </button>
+            </a>
           </li>
         </ul>
       </div>
